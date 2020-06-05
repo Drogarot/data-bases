@@ -1,0 +1,3 @@
+$: mysqldump -uroot -p example > mysql.sql
+mysql> CREATE DATABASE sample;
+$: mysql -uroot -p sample < mysql.sql
